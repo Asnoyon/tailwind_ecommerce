@@ -6,9 +6,10 @@ import Home from "./modules/home/Index";
 import { Routes, Route } from "react-router-dom";
 import Product from "./modules/product/Index";
 import Footer from "./components/footer/Index";
+
 function App() {
   return (
-    <div className="">
+    <div className="bg-slate-100">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
