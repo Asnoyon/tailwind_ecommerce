@@ -9,7 +9,7 @@ const Home = () => {
   const [flashSale, setFlashSale] = useState([]);
   useEffect(() => {
     const fetchFlashSale = async () => {
-      const res = await fetch("https://fakestoreapi.com/products?limit=4");
+      const res = await fetch("https://fakestoreapi.com/products?limit=6");
       const data = await res.json();
       setFlashSale(data);
     };
