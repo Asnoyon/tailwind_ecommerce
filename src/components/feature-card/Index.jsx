@@ -27,7 +27,7 @@ const FeatureCard = ({ product }) => {
               </h2>
             </div>
             <div className="p-4 md:w-1/3 text-right">
-              <a className="rounded-md text-indigo-400  bg-white p-1 cursor-pointer border-2 border-indigo-300 uppercase font-semibold">
+              <a className="rounded-md text-indigo-400  bg-white p-1 cursor-pointer border-2 border-indigo-300 uppercase font-medium">
                 Shop More
               </a>
             </div>
