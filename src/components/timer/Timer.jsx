@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 const Timer = ({ duration }) => {
   const [time, setTime] = useState(duration);
-//Timer effect
+  //Timer useEffect
   useEffect(() => {
     setTimeout(() => {
       setTime(time - 1000);
