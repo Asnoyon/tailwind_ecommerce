@@ -131,18 +131,18 @@ const Footer = () => {
       </div>
       <div className="bg-gray-100">
         <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-          <p className="text-gray-500 text-sm text-center sm:text-left">
-            © 2020 Tailblocks —
+          <p className="text-gray-500 text-sm  sm:text-left">
+            © 2023 E-Commerce —
             <a
-              href="https://twitter.com/knyttneve"
+              href="https://twitter.com/AsNoyon51"
               rel="noopener noreferrer"
               className="text-gray-600 ml-1"
               target="_blank"
             >
-              @knyttneve
+              @noyon
             </a>
           </p>
-          <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+          {/* <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
             <a className="text-gray-500">
               <svg
                 fill="currentColor"
@@ -198,7 +198,7 @@ const Footer = () => {
                 <circle cx="4" cy="4" r="2" stroke="none"></circle>
               </svg>
             </a>
-          </span>
+          </span> */}
         </div>
       </div>
     </footer>
