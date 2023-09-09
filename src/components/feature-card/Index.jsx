@@ -51,7 +51,7 @@ const FeatureCard = ({ product }) => {
                     <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">
                       {p.category}
                     </h3>
-                    <h2 className="text-gray-900 title-font text-lg font-medium">
+                    <h2 className="text-gray-900 title-font font-medium">
                       {p.title}
                     </h2>
                     <p className="mt-1 text-md font-semibold">${p.price}</p>
