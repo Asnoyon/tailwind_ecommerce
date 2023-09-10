@@ -9,7 +9,7 @@ const Hero = () => {
       </h1>
       <p className="mb-8 leading-relaxed text-justify">This is an online platform where you can find all kind of things and you can buy.This site is trusted. All our products are authentic. If you will be our card members then you would be discount every order. So please subscribe and collect our memberships.</p>
       <div className="flex justify-center">
-        <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Contact Us</button>
+        <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"> Contact Us</button>
        
       </div>
     </div>
