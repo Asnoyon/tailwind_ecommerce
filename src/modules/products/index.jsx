@@ -6,10 +6,10 @@ const Products = ()=>{
     const [categories, setCategories]=useState([])
     useEffect(()=>{
        const fetchCategories= async()=>{
-        const response = await fetch('https://fakestoreapi.com/products?limit=12')
+        const response = await fetch('https://fakestoreapi.com/products')
         try {
         const data = await response.json();
-        console.log(data)
+    
         setCategories(data)
         } catch (error) {
             console.log(error)
