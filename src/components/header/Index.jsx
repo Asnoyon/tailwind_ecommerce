@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 const navigation = [
@@ -56,6 +56,8 @@ const Header = () => {
         </nav>
         <ShoppingCartIcon className="inline-flex items-center text-white bg-indigo-500 py-1 focus:outline:none text-base mt-4 md:mt-0"></ShoppingCartIcon>
       </div>
+
+  
     </header>
   );
 };
